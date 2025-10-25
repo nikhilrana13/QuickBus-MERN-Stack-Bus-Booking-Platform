@@ -1,7 +1,7 @@
 import React from 'react'
 import Navbar from './Navbar'
 import { TicketIcon, User2Icon } from 'lucide-react'
-import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar"
+import { Avatar, AvatarFallback, AvatarImage } from "../../Components/ui/avatar"
 import { NavLink, Outlet } from 'react-router-dom'
 import { useSelector } from 'react-redux'
 import unknownuser from "../../assets/istockphoto-517998264-612x612.jpg"
