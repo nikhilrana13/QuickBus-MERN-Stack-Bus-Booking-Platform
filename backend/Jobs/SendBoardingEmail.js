@@ -2,7 +2,7 @@ import cron from "node-cron"
 import Booking from "../Models/BookingModel.js";
 import { convertTo24Hour } from "./ReleaseSeat.js";
 import User from "../Models/UserModel.js";
-import { SendBoardingReminder } from "../Services/emailService.js";
+import { SendBoardingReminder } from "../Services/EmailService.js";
 
 
 

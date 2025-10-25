@@ -266,9 +266,11 @@ export const UserUpcomingTrips = async (req, res) => {
       return Response(res, 404, "User not found");
     }
     const bookings = await Booking.find({ userId }).populate("busId","busname")
+  
     const now = new Date();
 
     const upcomingTrips = bookings.filter((booking) => {
+     
       const [hours, minutes] = convertTo24Hour(
         booking.boardingPoint.departureTime
       );
