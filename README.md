@@ -43,7 +43,9 @@ Virtual Days System: Operator only defines bus run days (e.g., Mon, Tue, Wed…)
 
 Dynamic Seat Management: Seats are booked segment-wise; expired seats are automatically freed using Node Cron.
 
+
 Technical Features
+
 
 Frontend: React, Tailwind CSS, ShadCN Components, Framer Motion, AOS
 
@@ -66,6 +68,7 @@ Ensuring only future buses are available
 PDF Generation: Tickets include all booking details.
 
 Responsive Design: Works seamlessly on mobile and desktop.
+
 
 🔹 Challenges Faced & Solutions
 
@@ -106,6 +109,7 @@ Issue: Replicating RedBus responsive UI with seat map, step navigation, and anim
 Solution: Used Tailwind CSS, ShadCN UI components, Framer Motion, and AOS for smooth animations and fully responsive design.
 
 🔹 Tech Stack
+
 Layer	Tech
 Frontend	React, Tailwind CSS, ShadCN, Framer Motion, AOS
 Backend	Node.js, Express.js, MongoDB, Mongoose
@@ -114,6 +118,7 @@ Payments	Stripe (Demo)
 Email	NodeMailer / SMTP
 Task Scheduling	Node Cron
 PDF Generation	PDFKit / html-pdf
+
 🔹 How It Works (Flow)
 
 User searches buses → only buses with future boarding times are shown.
