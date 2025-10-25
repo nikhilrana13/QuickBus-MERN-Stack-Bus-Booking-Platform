@@ -110,10 +110,11 @@ Solution: Used Tailwind CSS, ShadCN UI components, Framer Motion, and AOS for sm
 
 🔹 Tech Stack
 
-Layer	Tech
 Frontend	React, Tailwind CSS, ShadCN, Framer Motion, AOS
+
 Backend	Node.js, Express.js, MongoDB, Mongoose
 Authentication	JWT, Redux Toolkit
+
 Payments	Stripe (Demo)
 Email	NodeMailer / SMTP
 Task Scheduling	Node Cron
