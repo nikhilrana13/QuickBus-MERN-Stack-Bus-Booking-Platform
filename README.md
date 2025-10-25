@@ -1,6 +1,6 @@
 QuickBus – MERN Stack Bus Booking Platform 🚍
 
-QuickBus is a complete, production-ready bus booking application built using the MERN stack, inspired by RedBus. It provides both user-friendly interfaces for passengers and powerful dashboards for operators, with real-time seat selection, automated notifications, and dynamic bus management.
+QuickBus is a bus booking application built using the MERN stack, inspired by RedBus. It provides both user-friendly interfaces for passengers and powerful dashboards for operators, with real-time seat selection, automated notifications, and dynamic bus management.
 
 🔹 Features
 User Features
