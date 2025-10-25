@@ -9,7 +9,7 @@ import {
     DrawerHeader,
     DrawerTitle,
     DrawerTrigger,
-} from "@/components/ui/drawer";
+} from "../../ui/drawer";
 import { IoClose, IoHandLeft } from "react-icons/io5";
 import { ArrowRight, Loader2 } from "lucide-react";
 import SelectSeat from "./SelectSeat.jsx";
