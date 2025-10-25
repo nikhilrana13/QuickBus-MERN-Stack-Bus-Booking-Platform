@@ -1,7 +1,7 @@
 import React from 'react'
 import logo from "../../assets/quickbuslogowhite.png"
 import { NavLink } from 'react-router-dom'
-import ProfileDropdownMenu from './profileDropdownmenu'
+import ProfileDropdownMenu from '../OperatorDashboardComponents/ProfileDropdownMenu'
 
 const DashboardNavbar = () => {
   return (
